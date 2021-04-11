@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62bca4b9-0951-49dc-9b26-f696a01eb4be" name="Default Changelist" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="62bca4b9-0951-49dc-9b26-f696a01eb4be" name="Default Changelist" comment="+gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,11 +84,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserTest.getTokenTest" />
         <item itemvalue="JUnit.UserTest.registerPlayerTest" />
+        <item itemvalue="JUnit.UserTest.registerGamerTest" />
+        <item itemvalue="JUnit.UserTest.getTokenTest" />
         <item itemvalue="JUnit.UserTest.getSinglePlayerTest" />
         <item itemvalue="JUnit.UserTest.authPlayerTest" />
-        <item itemvalue="JUnit.UserTest.registerGamerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -122,22 +122,22 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="247" y="240" width="885" height="544" key="#xdebugger.evaluate/0.0.1440.920@0.0.1440.920" timestamp="1618142401789" />
-    <state width="1397" height="246" key="GridCell.Tab.0.bottom" timestamp="1618146906904">
+    <state width="1397" height="246" key="GridCell.Tab.0.bottom" timestamp="1618147751499">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="246" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1618146906904" />
-    <state width="1397" height="246" key="GridCell.Tab.0.center" timestamp="1618146906904">
+    <state width="1397" height="246" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1618147751499" />
+    <state width="1397" height="246" key="GridCell.Tab.0.center" timestamp="1618147751498">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="246" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1618146906904" />
-    <state width="1397" height="246" key="GridCell.Tab.0.left" timestamp="1618146906904">
+    <state width="1397" height="246" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1618147751498" />
+    <state width="1397" height="246" key="GridCell.Tab.0.left" timestamp="1618147751498">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="246" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1618146906904" />
-    <state width="1397" height="246" key="GridCell.Tab.0.right" timestamp="1618146906904">
+    <state width="1397" height="246" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1618147751498" />
+    <state width="1397" height="246" key="GridCell.Tab.0.right" timestamp="1618147751498">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="246" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1618146906904" />
+    <state width="1397" height="246" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1618147751498" />
     <state width="1397" height="300" key="GridCell.Tab.1.bottom" timestamp="1618142457430">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -162,14 +162,22 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="222" y="106" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1618058706233" />
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1618147131392">
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1618147671248">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1618147131392" />
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1618147671248" />
     <state width="727" height="467" key="XDebugger.FullValuePopup" timestamp="1618061775959">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state width="727" height="467" key="XDebugger.FullValuePopup/0.0.1440.920@0.0.1440.920" timestamp="1618061775959" />
+    <state x="498" y="249" key="git4idea.merge.GitMergeDialog" timestamp="1618147701456">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="498" y="249" key="git4idea.merge.GitMergeDialog/0.0.1440.920@0.0.1440.920" timestamp="1618147701456" />
+    <state x="397" y="249" key="git4idea.merge.GitPullDialog" timestamp="1618147680338">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="397" y="249" key="git4idea.merge.GitPullDialog/0.0.1440.920@0.0.1440.920" timestamp="1618147680338" />
     <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1618146115102">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
