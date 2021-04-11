@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="62bca4b9-0951-49dc-9b26-f696a01eb4be" name="Default Changelist" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlotegratorTaskAPI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StotegratorClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Currency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/GrantType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/requests/GetAccessTokenRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/requests/PlayerRegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/SlotegratorTaskAPI.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/StotegratorClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/Currency.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/GrantType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/requests/GetAccessTokenRequest$GetAccessTokenRequestBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/requests/GetAccessTokenRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/requests/PlayerRegisterRequest$PlayerRegisterRequestBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/requests/PlayerRegisterRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/UserTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1qyaGV93MljSgDN1jFcYZWSXdzx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="JUnit.UserTest.getTokenTest">
+    <configuration name="UserTest.authPlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SlotegratorTaskAPI" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserTest" />
+      <option name="METHOD_NAME" value="authPlayerTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.getSinglePlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SlotegratorTaskAPI" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserTest" />
+      <option name="METHOD_NAME" value="getSinglePlayerTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.getTokenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SlotegratorTaskAPI" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserTest" />
+      <option name="METHOD_NAME" value="getTokenTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.registerGamerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SlotegratorTaskAPI" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserTest" />
+      <option name="METHOD_NAME" value="registerGamerTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.registerPlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SlotegratorTaskAPI" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserTest" />
+      <option name="METHOD_NAME" value="registerPlayerTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserTest.getTokenTest" />
+        <item itemvalue="JUnit.UserTest.registerPlayerTest" />
+        <item itemvalue="JUnit.UserTest.getSinglePlayerTest" />
+        <item itemvalue="JUnit.UserTest.authPlayerTest" />
+        <item itemvalue="JUnit.UserTest.registerGamerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62bca4b9-0951-49dc-9b26-f696a01eb4be" name="Default Changelist" comment="" />
+      <created>1618054187725</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618054187725</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="247" y="240" width="885" height="544" key="#xdebugger.evaluate" timestamp="1618142401789">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="247" y="240" width="885" height="544" key="#xdebugger.evaluate/0.0.1440.920@0.0.1440.920" timestamp="1618142401789" />
+    <state width="1397" height="246" key="GridCell.Tab.0.bottom" timestamp="1618146507554">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="246" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1618146507554" />
+    <state width="1397" height="246" key="GridCell.Tab.0.center" timestamp="1618146507554">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="246" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1618146507554" />
+    <state width="1397" height="246" key="GridCell.Tab.0.left" timestamp="1618146507553">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="246" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1618146507553" />
+    <state width="1397" height="246" key="GridCell.Tab.0.right" timestamp="1618146507554">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="246" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1618146507554" />
+    <state width="1397" height="300" key="GridCell.Tab.1.bottom" timestamp="1618142457430">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="300" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1618142457430" />
+    <state width="1397" height="300" key="GridCell.Tab.1.center" timestamp="1618142457430">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="300" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1618142457430" />
+    <state width="1397" height="300" key="GridCell.Tab.1.left" timestamp="1618142457430">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="300" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1618142457430" />
+    <state width="1397" height="300" key="GridCell.Tab.1.right" timestamp="1618142457430">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="300" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1618142457430" />
+    <state x="251" y="116" key="Maven.ArtifactSearchDialog" timestamp="1618061331637">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="251" y="116" key="Maven.ArtifactSearchDialog/0.0.1440.920@0.0.1440.920" timestamp="1618061331637" />
+    <state x="222" y="106" key="SettingsEditor" timestamp="1618058706233">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="222" y="106" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1618058706233" />
+    <state width="727" height="467" key="XDebugger.FullValuePopup" timestamp="1618061775959">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="727" height="467" key="XDebugger.FullValuePopup/0.0.1440.920@0.0.1440.920" timestamp="1618061775959" />
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1618146115102">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1618146115102" />
+  </component>
+</project>
