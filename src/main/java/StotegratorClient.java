@@ -22,6 +22,21 @@ public class StotegratorClient {
     private static final String USERNAME = "front_2d6b0a8391742f5d789d7d915755e09e";
     private static final String PASSWORD = "123";
 
+    public ValidatableResponse getToken(Object jsonObject) {
+        System.out.println("Send request to get token\n");
+        return post(GET_TOKEN, jsonObject, getSpecWithAuthorization());
+    }
+
+    public ValidatableResponse registerPlayer(Object jsonObject, String type, String token) {
+        System.out.println("Send request to register player\n");
+        return post(REGISTER_PLAYER, jsonObject, getSpecWithAuthorization(type, token));
+    }
+
+    public ValidatableResponse getPlayerProfile(String id, String type, String token){
+        System.out.println("Send request to get player profile\n");
+        return get(GET_PLAYER, id, getSpecWithAuthorization(type, token));
+    }
+
     private RequestSpecBuilder getInitialSpecBuilder() {
         List<Filter> filters = Arrays.asList(new RequestLoggingFilter(), new ResponseLoggingFilter());
         return new RequestSpecBuilder()
@@ -29,27 +44,24 @@ public class StotegratorClient {
                 .addFilters(filters);
     }
 
-    public ValidatableResponse getToken(Object jsonObject) {
-        RequestSpecification requestSpecification = getInitialSpecBuilder()
-                .setAuth(getAuth())
-                .build();
-        return post(GET_TOKEN, jsonObject, requestSpecification);
-    }
-
-    public ValidatableResponse registerPlayer(Object jsonObject, String type, String token) {
-        RequestSpecification requestSpecification = getInitialSpecBuilder()
+    private RequestSpecification getSpecWithAuthorization(String type, String token){
+        return getInitialSpecBuilder()
                 .addHeader("Authorization", String.format("%s %s", type, token))
                 .build();
-        return post(REGISTER_PLAYER, jsonObject, requestSpecification);
     }
 
-    public ValidatableResponse getPlayerProfile(String id, String type, String token){
-        RequestSpecification requestSpecification = getInitialSpecBuilder()
-                .addHeader("Authorization", String.format("%s %s", type, token))
+    private RequestSpecification getSpecWithAuthorization(){
+        return getInitialSpecBuilder()
+                .setAuth(getAuthScheme())
                 .build();
-        return get(GET_PLAYER, id, requestSpecification);
     }
 
+    private PreemptiveBasicAuthScheme getAuthScheme() {
+        PreemptiveBasicAuthScheme authenticationScheme = new PreemptiveBasicAuthScheme();
+        authenticationScheme.setUserName(USERNAME);
+        authenticationScheme.setPassword(PASSWORD);
+        return authenticationScheme;
+    }
 
     private ValidatableResponse post(String url, Object jsonObject, RequestSpecification requestSpecification) {
         return RestAssured.given()
@@ -66,12 +78,5 @@ public class StotegratorClient {
                 .contentType(ContentType.JSON)
                 .get(url, id)
                 .then();
-    }
-
-    private PreemptiveBasicAuthScheme getAuth() {
-        PreemptiveBasicAuthScheme authenticationScheme = new PreemptiveBasicAuthScheme();
-        authenticationScheme.setUserName(USERNAME);
-        authenticationScheme.setPassword(PASSWORD);
-        return authenticationScheme;
     }
 }
