@@ -1,5 +1,6 @@
 import io.restassured.response.ExtractableResponse;
 import io.restassured.response.Response;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import requests.GetAccessTokenRequest;
 import requests.PlayerRegisterRequest;
@@ -10,8 +11,8 @@ import static org.hamcrest.Matchers.*;
 
 public class GetTokenTests extends  PlayersBase{
 
-    //Client Credentials Grant
     @Test
+    @DisplayName("Client Credentials Grant")
     public void getTokenTest() {
         GetAccessTokenRequest request = GetAccessTokenRequest.builder()
                 .grant_type(CLIENT_CREDENTIALS.getValue())
@@ -26,8 +27,8 @@ public class GetTokenTests extends  PlayersBase{
         //   .body("refresh_token", not(is(emptyOrNullString()))); // не возвращается, ошибка?
     }
 
-    //Resource Owner Password Credentials Grant
     @Test
+    @DisplayName("Resource Owner Password Credentials Grant")
     public void authPlayerTest() {
         ExtractableResponse<Response> tokenResponse = getClientToken().extract();
         String tokenType = tokenResponse.path("token_type");
