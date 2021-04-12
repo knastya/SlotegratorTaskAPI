@@ -20,7 +20,6 @@ public class PlayersBase {
 
     /* TODO
         - в целом, добавила бы ещё логирования для проверок в body
-        - добавить описания в Readme file
      */
 
     public ValidatableResponse getClientToken() {

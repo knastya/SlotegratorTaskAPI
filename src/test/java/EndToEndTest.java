@@ -84,7 +84,7 @@ public class EndToEndTest extends PlayersBase {
                 .password(registerRequest.getPassword_change())
                 .build();
 
-        ExtractableResponse<Response> playerTokenResponse =  client.getToken(playerTokenRequest)
+        ExtractableResponse<Response> playerTokenResponse = client.getToken(playerTokenRequest)
                 .statusCode(200)
                 .body("access_token", not(is(emptyOrNullString())))
                 .body("token_type", not(is(emptyOrNullString())))

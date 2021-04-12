@@ -1,5 +1,6 @@
 import io.restassured.response.ExtractableResponse;
 import io.restassured.response.Response;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import requests.PlayerRegisterRequest;
 
@@ -8,8 +9,8 @@ import static org.hamcrest.Matchers.nullValue;
 
 public class GetProfilePlayerTests extends PlayersBase {
 
-    //Get own players profile
     @Test
+    @DisplayName("Get own players profile")
     public void getSinglePlayerTest() {
         ExtractableResponse<Response> tokenResponse = getClientToken().extract();
         String tokenType = tokenResponse.path("token_type");
@@ -43,8 +44,8 @@ public class GetProfilePlayerTests extends PlayersBase {
                 .body("is_verified", is(false));
     }
 
-    //Get other players profile
     @Test
+    @DisplayName("Get other players profile")
     public void getAnotherPlayerTest() {
         ExtractableResponse<Response> tokenResponse = getClientToken().extract();
         String tokenType = tokenResponse.path("token_type");
